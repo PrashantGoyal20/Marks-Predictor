@@ -52,4 +52,4 @@ data_transform=DataTransform()
 train_array,test_array,pre_processing_path=data_transform.initiate_Transformations(train,test)
 
 model=ModelTrainer()
-model.initiate_training(train_array,test_array)
+print(model.initiate_training(train_array,test_array))
